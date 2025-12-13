@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 13 13:14:25 2025
-
-@author: Smart
-"""
-
 # Simple Calculator
 
 numb1 = float(input("Enter the first number: "))
@@ -27,4 +20,5 @@ elif operator == "/":
         print(numb1 / numb2)
 
 else:
+
     print("Invalid operator! Use only +  -  *  /")
