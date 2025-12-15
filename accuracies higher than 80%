@@ -1,0 +1,7 @@
+# Q7 - print accuracies higher than 80%
+
+accuracy_list = [15, 87, 73, 65, 89, 92, 34, 99, 50]
+
+for accuracy in accuracy_list:
+    if accuracy > 80:
+        print(accuracy)
