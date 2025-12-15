@@ -1,4 +1,4 @@
-# Q2 - Quality control based on density (LPBF)
+#Q2- Quality control based on density (LPBF)
 
 sample = input("Sample name: ").strip()
 process = input("process: ")
