@@ -1,4 +1,4 @@
-# Q3 - QC based on density, then scanning speed
+#Q3- QC based on density, then scanning speed
 
 sample = input("Sample name: ")
 process = input("process: ")
