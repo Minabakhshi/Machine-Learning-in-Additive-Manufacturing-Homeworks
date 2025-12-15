@@ -1,0 +1,11 @@
+# Q2 - Quality control based on density (LPBF)
+
+sample = input("Sample name: ").strip()
+process = input("process: ")
+
+density = float(input("Density (0 to 1): "))
+
+if density > 0.98:
+    print(f"{sample} | process={process} | Quality control PASSED (density={density})")
+else:
+    print(f"{sample} | process={process} | Quality control NOT PASSED (density={density})")
