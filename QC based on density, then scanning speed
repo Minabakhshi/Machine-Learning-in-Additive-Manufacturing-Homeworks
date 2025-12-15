@@ -1,0 +1,15 @@
+# Q3 - QC based on density, then scanning speed
+
+sample = input("Sample name: ")
+process = input("process: ")
+
+density = float(input("Density: "))
+
+if density > 0.98:
+    print(f"{sample} | process={process} | PASS (density={density})")
+else:
+    scanning_speed = float(input("Scanning speed: "))
+    if scanning_speed > 200:
+        print(f"{sample} | process={process} | PASS (density={density}, scanning_speed={scanning_speed})")
+    else:
+        print(f"{sample} | process={process} | NOT PASS (density={density}, scanning_speed={scanning_speed})")
