@@ -1,0 +1,7 @@
+# Q6 - print all samples in the list
+
+sample_list = [10.2, 10.9, 10.8, 10.8, 10.6, 10.32]
+
+for sample in sample_list:
+    print(sample)
+
