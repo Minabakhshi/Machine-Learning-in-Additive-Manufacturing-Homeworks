@@ -1,4 +1,4 @@
-# Simple Calculator
+#Q1- Simple Calculator
 
 numb1 = float(input("Enter the first number: "))
 numb2 = float(input("Enter the second number: "))
@@ -22,3 +22,4 @@ elif operator == "/":
 else:
 
     print("Invalid operator! Use only +  -  *  /")
+
